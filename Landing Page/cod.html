@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALKIE TALKIE</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='cod.css')}}">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="cod.css">
+
+  </head>
+  <body>
+    
+
+    <header>
+        <nav class="navbar">
+          <h2 class="logo"><a href="#">WALKIE TALKIE</a></h2>
+          <input type="checkbox" id="menu-toggler">
+          <label for="menu-toggler" id="hamburger-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                  <path d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+              </svg>
+          </label>
+          <ul class="all-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Working</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#how-it-work">About Us</a></li>
+            <!-- <li><a href="#pricing">Pricing</a></li> -->
+            <!-- <li><a href="#contact">Contact</a></li> -->
+            <!-- <li><a href="#team">Team</a></li> -->
+            <!-- <li><a href="#contact">Register</a></li> -->
+            <!-- <li><a href="#download-app"><i class="fas fa-download"></i> Download App</a></li> -->
+         </ul>
+        </nav>
+</header>
+
+      <section class="homepage" id="home">
+        
+        <div class="content">
+          <div class="text">
+            <h1>Recognising Terrain Features</h1>
+            <p>
+              Recognizing terrain features on terrestrial surface using a deep learning model</p>
+          </div>
+          <a href="#services"><b> Explore Our Products </b></a>
+        </div>
+      </section>
+  
+
+      <section class="services" id="services">
+        <!-- <h5>how it does?</h5> -->
+        <h2>How It Works?</h2>
+        <!-- <h3>Augmented Reality</h3> -->
+        <!-- <p>This can help students better understand complex concepts and retain information for longer periods of time.</p> -->
+      
+        <!-- AR Section -->
+        <div class="ar-section">
+          <div class="ar-box">
+            <!-- <img src="ar2.jpg" alt="AR Image"> -->
+            
+          </div>
+          
+        </div>
+        
+        
+      
+        <!-- Cards Section -->
+        <ul class="cards">
+          <!-- Card 1: AR -->
+          <li class="card">
+            <!-- <img src="moun.jpg" alt="img"> -->
+            <h3>Terrain Recognition</h3>
+            <p>Implement CNN-based vision algorithms to accurately classify terrains, addressing the defense department's need for improved understanding and navigation in various environments.</p>
+          </li>
+      
+          <!-- Card 2: Virtual Reality -->
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="bird.png" alt="img"> -->
+            <h3>Implicit Quantities Integration</h3>
+            <p>Develop mechanisms to extract and incorporate implicit quantities information, including roughness and slipperiness, to provide a more comprehensive perspective on the terrain characteristics.
+            </p>
+          </li>
+      
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="ANIMALS (2).png" alt= "img"> -->
+            <h3>High - Level Environment Perception</h3>
+            <p>Emphasize the importance of leveraging deep learning methods for high-level environment perception, enabling the prediction of terrain features crucial for optimizing armed weapons and ensuring successful navigation in diverse landscapes.</p>
+          </li>
+
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="Superhero Final.png" alt="img"> -->
+            <h3>Defence Department Requirements</h3>
+            <p>Improve armed weaponry efficiency through enhanced understanding of terrains. Predict the nature of different locations for strategic advantage.</p>
+          </li>
+
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="photobooth.png" alt="img"> -->
+            <h3>Automated Agriculture Needs</h3>
+            <p>Facilitate futuristic automated agriculture with precise information about the land. Optimize processes such as manure application and fertilizer distribution.</p>
+          </li>
+          
+
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="Construction.jpg" alt="img"> -->
+            <h3>Classification Algorithm</h3>
+            <p>  Utilize CNNs for efficient terrain identification, training on a diverse dataset integrated into a backend system.
+              </p>
+          </li>
+          <!-- Add content for other cards as needed -->
+
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="AR-Shopping.jpeg" alt="img"> -->
+            <h3>Backend Integration</h3>
+            <p>Design a scalable backend architecture, incorporating microservices and secure APIs for real-time terrain classification.
+              </p>
+          </li>
+
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="fire.png" alt="img"> -->
+            <h3>Implicit Quantities Extraction</h3>
+            <p>Extend the CNN model to extract roughness and slipperiness information, enhancing terrain analysis.
+              
+              
+              </p>
+          </li>
+
+          <li class="card">
+            <!-- Add content for Virtual Reality card -->
+            <!-- <img src="chem.jpg" alt="img"> -->
+            <h3>Database Integration</h3>
+            <p> Develop a well-organized database with efficient retrieval mechanisms for seamless access to annotated terrain images.</p>
+          </li>
+      
+        </ul>
+      </section>
+  
+      
+
+
+
+      <section class="services" id="services">
+       
+          <a href="{{url_for('upload')}}" class="button">Try Now</a>
+        
+      </section>
+      
+
+  
+
+      </section>
+
+    <section id="how-it-work">
+      <!-- <h2>About</h2>
+      <iframe width="420" height="345" src="https://www.youtube.com/embed/Ox1Z14ETpOo?si=YUBI3sa6B0GpTM2n">
+      </iframe> -->
+      <!-- <iframe id="video" src="https://youtu.be/XPNUmcEOYW0?si=oA0pssLsqj0uSBG4"></iframe> -->
+    </section>
+
+
+      
+  
+
+
+      <section class="pricing" id="pricing">
+        <!-- <h2>Pricing</h2>
+        <p><h1>Explore our flexible pricing plans.</h1></p> -->
+            <style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* .price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+} */
+
+.button {
+  background-color: rgba(0, 0, 255, 0.5);;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+
+    <!-- <section class="pricing-section"> -->
+
+        <!-- <h2 style="text-align:center">Responsive Pricing Tables</h2> -->
+        <!-- <p style="text-align:center"></p>
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Basic</li>
+            <li class="grey">$ 9.99 </li>
+            <li>AR Application Plan</li>
+            <li>3 Modules</li>
+            <li>6 Months</li>
+             <li>1GB Bandwidth</li> -->
+            <!-- <li class="grey"><a href="#" class="button">Get Started</a></li>
+          </ul>
+        </div> --> 
+        
+        <!-- <div class="columns">
+          <ul class="price">
+            <li class="header" style="background-color:rgba(0, 0, 255, 0.5);">Pro</li>
+            <li class="grey">$ 24.99 </li>
+            <li>AR Application with Textbook Learning</li>
+            <li>3 Modules</li>
+            <li>12 Months Learning</li>
+             <li>2GB Bandwidth</li> -->
+            <!-- <li class="grey"><a href="#" class="button">Get Started</a></li>
+          </ul>
+        </div> -->
+         
+        <!-- <div class="columns">
+          <ul class="price">
+            <li class="header">Premium</li>
+            <li class="grey">$ 49.99 </li>
+            <li>Personalized Teaching</li>
+            <li>3 Modules</li>
+             <li>18 Months</li> -->
+            <!-- <li>5GB Bandwidth</li> -->
+            <!-- <li class="grey"><a href="#" class="button">Get Started</a></li>
+          </ul>
+        </div> -->
+        <!-- Price Box 1 -->
+        <!-- <div class="price-box">
+            <div class="price-title">Basic Plan</div>
+            <div class="price-amount">$19.99/month</div>
+            <div class="price-description">Perfect for individuals</div>
+        </div> -->
+
+        <!-- Price Box 2 -->
+        <!-- <div class="price-box">
+            <div class="price-title">Pro Plan</div>
+            <div class="price-amount">$39.99/month</div>
+            <div class="price-description">Great for small businesses</div>
+        </div> -->
+
+        <!-- Price Box 3 -->
+        <!-- <div class="price-box">
+            <div class="price-title">Enterprise Plan</div>
+            <div class="price-amount">$99.99/month</div>
+            <div class="price-description">Ideal for large enterprises</div>
+        </div>
+    </section> -->
+        <!-- Add your pricing details here -->
+    <!-- </section> -->
+
+      <!-- <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p><h1> Keep in Touch</h1></p>
+        <div class="row">
+          <div class="col information">
+            <div class="contact-details">
+              <p><i class="fas fa-map-marker-alt"></i> Chennai , TamilNadu , India-44</p>
+              <p><i class="fas fa-envelope"></i> kinderedu001@gmail.com</p>
+              <p><i class="fas fa-clock"></i> Monday - Friday: 4:00 AM - 6:00 PM</p>
+              <p><i class="fas fa-clock"></i> Saturday: 9:00 AM - 5:00 PM</p>
+              <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+             
+            </div>          
+          </div>
+          <div class="col form">
+            <form
+              action="https://formspree.io/f/mbjngvyy"
+              method="POST">
+              <label>
+                <input type="text" name="Name" placeholder="Name*" required>
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="Email*" required>
+
+              </label>
+              
+              <label>
+                <textarea name="Message" placeholder="Message*" required></textarea>
+              </label>
+              
+              <button id="submit" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+ -->
+
+      
+    <!-- <section class="download-app" id="download-app">
+      <h2>Download Our App</h2>
+      <p>Get our app for a smarter learning experience on the go!</p>
+      Add your download links or buttons here
+    </section>
+     -->
+
+      <!-- <section class="team" id="team">
+        <h2>Our Team</h2>
+        <p>Meet the talented individuals behind KinderEdu.</p>
+        Add your team members' details here
+    </section>
+
+    <section class="register" id="register">
+      <h2>Register with KinderEdu</h2>
+      <p>Join us on the journey to shape the future of education.</p>
+      Add your registration form or CTA here
+  </section> -->
+
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+ 
+
+
+<!-- <div class="wrapper">
+  <a href="#" class="icon facebook">
+    <div class="tooltip">Facebook</div>
+    <span><i class="fab fa-facebook-f"></i></span>
+  </a> -->
+  <!-- <a href="#" class="icon twitter">
+    <div class="tooltip">Twitter</div>
+    <span><i class="fab fa-twitter"></i></span>
+  </a> -->
+  <!-- <a href="#" class="icon instagram">
+    <div class="tooltip">Instagram</div>
+    <span><i class="fab fa-instagram"></i></span>
+  </a>
+  <a href="#" class="icon github">
+    <div class="tooltip">Github</div>
+    <span><i class="fab fa-github"></i></span>
+  </a>
+  <a href="#" class="icon youtube">
+    <div class="tooltip">Youtube</div>
+    <span><i class="fab fa-youtube"></i></span>
+  </a>
+</div> -->
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2024 Copyright:
+    <a class="text-white" href="https://kinderar.netlify.app/">KinderEdu</a>
+  </div> -->
+  <!-- Copyright -->
+
+  
+</div>
+<!-- End of .container -->
+<div class="hlo">
+  <h1 class="h1-text">
+      <i class="fa fa-users" aria-hidden="true"></i>Team Members
+  </h1>
+
+     
+<div class="ntainer">
+  <div class="x">
+      <div class="p-bar"></div>
+      <div class="p">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <input type="checkbox" class="heart-btn" id="heart-btn-1">
+          <label class="heart" for="heart-btn-1"></label>
+      </div>
+      <div class="ntent">
+          
+          <strong>GOWTHAM S</strong>
+          <p>42110395</p>
+      </div>
+      
+  </div>
+  <div class="x">
+      <div class="p-bar"></div>
+      <div class="p">
+          <div>
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+          </div>
+          <div>
+              <input type="checkbox" class="heart-btn" id="heart-btn-2">
+              <label class="heart" for="heart-btn-2"></label>
+          </div>
+      </div>
+      <div class="ntent">
+          <strong>HARI KESAVAN P</strong>
+          <p>42110422</p>
+      </div>
+      
+  </div>
+  <div class="x">
+      <div class="p-bar"></div>
+      <div class="p">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <input type="checkbox" class="heart-btn" id="heart-btn-3">
+          <label class="heart" for="heart-btn-3"></label>
+      </div>
+      <div class="ntent">
+          
+          <strong>HARI PRASHANTH P</strong>
+          <p>42110424</p>
+      </div>
+      
+  </div>
+  <div class="x">
+      <div class="p-bar"></div>
+      <div class="p">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <input type="checkbox" class="heart-btn" id="heart-btn-4">
+          <label class="heart" for="heart-btn-4"></label>
+      </div>
+      <div class="ntent">
+         
+          <strong>LOHITH KRISHNA JK</strong>
+          <p>42110711</p>
+      </div>
+     
+  </div>
+</div>
+</div>
+  </body>
+  <footer>
+   <div class="foo">
+      
+   </div>   
+        <br>
+        <br>
+        <p><i style='font-size:24px' class='fas'>&#xf19d;</i>
+          Sathyabama Institue Of Science And Technology        <img src="OIP.jpeg" width="300" height="200">
+        </p>
+    
+  </footer>
+</html>
